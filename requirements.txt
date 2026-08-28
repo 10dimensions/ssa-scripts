@@ -1,0 +1,4 @@
+astropy
+skyfield 
+matplotlib 
+numpy
