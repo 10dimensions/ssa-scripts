@@ -1,6 +1,8 @@
 # Constants
 mu = 398600.4418      # km^3/s^2
+mu_m = 3.986e14          # Earth's gravitational parameter (m^3/s^2)
 R_E = 6378.137        # km
+R_E_m = 6378000          # Earth's equatorial radius (m)
 J2 = 1.08263e-3       # dimensionless
 
 # Normal conditions vs. Geomagnetic Storm conditions
