@@ -11,3 +11,9 @@ DENSITY_STORM_200KM  = 1.5e-9    # kg/m^3 (5x increase, matching Feb 2022 event)
 
 SCALE_HEIGHT_NORMAL = 35000      # meters (Quiet)
 SCALE_HEIGHT_STORM  = 55000      # meters (Expanded due to heating)
+
+# Satellite parameters (approximating a Starlink v1.5 satellite)
+MASS = 260.0           # Mass (kg)
+AREA = 15.0            # Cross-sectional area facing velocity vector (m^2)
+CD = 2.2               # Drag coefficient (dimensionless)
+DRAG_FACTOR = (CD * AREA) / MASS  # (m^2/kg)
