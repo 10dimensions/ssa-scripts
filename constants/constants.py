@@ -5,6 +5,9 @@ R_E = 6378.137        # km
 R_E_m = 6378000          # Earth's equatorial radius (m)
 J2 = 1.08263e-3       # dimensionless
 
+# Reference altitude for density (200 km)
+H_REF = 200000         # meters
+
 # Normal conditions vs. Geomagnetic Storm conditions
 # During a storm, the thermosphere heats up, expanding outward. 
 # This increases BOTH the base density and the scale height.
