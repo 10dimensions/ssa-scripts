@@ -1,3 +1,6 @@
+import numpy as np
+from constants.constants import R_E
+
 def computeSlantRange(R_obs, altitude, RA_deg, Dec_deg):
   R_obs_mag = np.linalg.norm(R_obs)
   
