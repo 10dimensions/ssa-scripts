@@ -25,3 +25,5 @@ DRAG_FACTOR = (CD * AREA) / MASS  # (m^2/kg)
 
 # Assume a baseline radar that can detect a 10 cm object at 2000 km.
 R_max_10cm = 2000.0  # km
+
+c = 299792458.0 # Speed of light (m/s)
